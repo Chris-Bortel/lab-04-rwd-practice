@@ -1,0 +1,110 @@
+/* - **layout.css** should contain general positioning on the page
+  - Apply to elements such as header, footer, nav, aside
+  - Classes and IDs can be included here */
+
+  
+  header {
+    height: 75px;
+    background-color: royalblue;
+  }
+  
+  main {
+  }
+  
+  section {
+  }
+
+  aside {
+    height: 150px;
+    background-color: sandybrown;
+    /* padding-top:3em; */
+  }
+  
+  div {
+    height: 125px;
+    background-color: sienna;
+    text-align: center;
+  }
+
+  div:nth-child(2) {
+    background-color: #fbc531;
+  }
+
+  div p {
+    padding-top:3em;
+  }
+
+  /* TODO: fix the 3px jog by setting the affected areas width (fixes the float force field */
+  article p {
+    display:inline-block;
+    height:250px;
+    width:238px;
+    background-color: red;
+  }
+  article p:nth-child(2) {
+    background-color:#bada55;
+  }
+  article p:nth-child(3) {
+    background-color:#f5f6fa;
+  }
+  article p:nth-child(4) {
+    background-color:#487eb0;
+  }
+  
+  footer {
+    height: 80px;
+    background: slateblue;
+  }
+  
+
+  @media (min-width: 768px) {
+    body {
+      width:960px;
+      background-color: salmon;
+
+    }
+    header {
+      height: 100px;
+      background-color: #FFC312;
+    }
+
+    aside {
+      float: left;
+      width: 200px;
+      height: 600px;
+      background-color: #0abde3;
+    }
+    
+    div  {
+      display:inline-block;
+      width: 378px;
+      height: 200px;
+      background-color: #1dd1a1;
+    }
+
+    div:nth-child(2){
+      background-color: #ff9f43;
+    }
+ 
+    article p {
+      width: 187px;
+      height: 250px;
+      background-color: #8395a7;
+    }
+    article p:nth-child(2) {
+      background-color:#f368e0;
+    }
+    article p:nth-child(3) {
+      background-color:#9980FA;
+    }
+    article p:nth-child(4) {
+      background-color:#ff9ff3;
+    }
+    
+    footer {
+      float:right;
+      width: 758px;
+      height: 150px;
+      background-color: #C4E538;
+    }
+  }
