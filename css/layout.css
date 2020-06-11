@@ -4,60 +4,18 @@
 
   
   header {
+    width: 480px;
     height: 75px;
-    background-color: royalblue;
   }
   
   main {
+    width: 480px;
   }
   
-  section {
-  }
-
-  aside {
-    height: 150px;
-    background-color: sandybrown;
-    /* padding-top:3em; */
-  }
-  
-  div {
-    height: 125px;
-    background-color: sienna;
-    text-align: center;
-  }
-
-  div:nth-child(2) {
-    background-color: #fbc531;
-  }
-
-  div p {
-    padding-top:3em;
-  }
-
-  /* TODO: fix the 3px jog by setting the affected areas width (fixes the float force field */
-  article p {
-    display:inline-block;
-    height:250px;
-    width:238px;
-    background-color: red;
-  }
-  article p:nth-child(2) {
-    background-color:#bada55;
-  }
-  article p:nth-child(3) {
-    background-color:#f5f6fa;
-  }
-  article p:nth-child(4) {
-    background-color:#487eb0;
-  }
-  
-  footer {
-    height: 80px;
-    background: slateblue;
-  }
+ 
   
 
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     body {
       width:960px;
       background-color: salmon;
@@ -107,4 +65,4 @@
       height: 150px;
       background-color: #C4E538;
     }
-  }
+  } */
