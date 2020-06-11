@@ -4,25 +4,36 @@
 
   header {
     background-color: aquamarine;
-    width: 480px;
-    height:75px;
-    margin: 0 auto;
+    /* width: 480px; */
+    height:7.102vh;
+    /* margin: 0 auto; */
   }
   aside {
     background-color: #F8EFBA;
-    height: 125px;
+    height: 14.204vh;
   }
   div {
     background-color: salmon;
-    height: 125px;
+    height: 11.837vh;
   }
   
+  article {
+    height:47.348vh
+  }
   p {
     background-color: #bada55;
-    height: 125px;
+    height: 50% auto;
+    width: 50%;
   }
 
   footer {
     background-color: #a29bfe;
-    height: 80px;
+    height: 7.575vh;
+  }
+
+  article {
+    display: flex;
+    /* flex-direction:column; */
+   flex-flow: row wrap;
+   
   }

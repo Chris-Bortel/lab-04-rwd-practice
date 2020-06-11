@@ -51,9 +51,10 @@ body {
 
 main {
   display: grid;
-  width: 480px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
+  width: 85%;
+  height:auto;
+  grid-auto-columns: 50% 50%;
+  grid-auto-rows: auto;
   /* 70px 150px 125px 125px 250px 250px 80px; */
   gap: 1px 1px;
   grid-template-areas:
