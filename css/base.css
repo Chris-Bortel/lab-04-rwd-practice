@@ -5,6 +5,18 @@
 
 
 
+/* 
+body > * {
+  border: 1px solid black;
+  box-sizing: border-box;
+} */
+
+
+.dev {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
 body {
   height: 100%;
   width: 480px;
@@ -12,4 +24,20 @@ body {
   /* padding: 0 auto; */
   text-align: center;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 100% ;
+  grid-template-rows: 150px 125px 125px 250px 250px;
+  gap: 1px 1px;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ." ". .";
+}
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+main {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
 
