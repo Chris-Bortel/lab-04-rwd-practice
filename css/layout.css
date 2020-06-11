@@ -2,67 +2,27 @@
   - Apply to elements such as header, footer, nav, aside
   - Classes and IDs can be included here */
 
-  
   header {
+    background-color: aquamarine;
     width: 480px;
-    height: 75px;
+    height:75px;
+    margin: 0 auto;
+  }
+  aside {
+    background-color: #F8EFBA;
+    height: 125px;
+  }
+  div {
+    background-color: salmon;
+    height: 125px;
   }
   
-  main {
-    width: 480px;
+  p {
+    background-color: #bada55;
+    height: 125px;
   }
-  
- 
-  
 
-  /* @media (min-width: 768px) {
-    body {
-      width:960px;
-      background-color: salmon;
-
-    }
-    header {
-      height: 100px;
-      background-color: #FFC312;
-    }
-
-    aside {
-      float: left;
-      width: 200px;
-      height: 600px;
-      background-color: #0abde3;
-    }
-    
-    div  {
-      display:inline-block;
-      width: 378px;
-      height: 200px;
-      background-color: #1dd1a1;
-    }
-
-    div:nth-child(2){
-      background-color: #ff9f43;
-    }
- 
-    article p {
-      width: 187px;
-      height: 250px;
-      background-color: #8395a7;
-    }
-    article p:nth-child(2) {
-      background-color:#f368e0;
-    }
-    article p:nth-child(3) {
-      background-color:#9980FA;
-    }
-    article p:nth-child(4) {
-      background-color:#ff9ff3;
-    }
-    
-    footer {
-      float:right;
-      width: 758px;
-      height: 150px;
-      background-color: #C4E538;
-    }
-  } */
+  footer {
+    background-color: #a29bfe;
+    height: 80px;
+  }
