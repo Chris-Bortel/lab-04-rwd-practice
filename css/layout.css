@@ -2,38 +2,59 @@
   - Apply to elements such as header, footer, nav, aside
   - Classes and IDs can be included here */
 
-  header {
-    background-color: aquamarine;
-    /* width: 480px; */
-    height:7.102vh;
-    /* margin: 0 auto; */
-  }
-  aside {
-    background-color: #F8EFBA;
-    height: 14.204vh;
-  }
-  div {
-    background-color: salmon;
-    height: 11.837vh;
+  .div-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+    margin: auto 0;
+    margin: 60px;
   }
   
-  article {
-    height:47.348vh
+  .a {
+    grid-column: span 2;
+    background-color: lightblue;
   }
-  p {
+  .b {
+    grid-column: span 2;
+    background-color: salmon;
+  }
+  .c {
+    grid-column: span 2;
+    background-color: lightgreen;
+  }
+  .d {
+    grid-column: span 2;
+    background-color: lightgoldenrodyellow;
+  }
+  .e {
+    /* grid-column: 1fr; */
+    background-color: lightsalmon;
+  }
+  .f {
+    /* grid-column: 1fr; */
+    background-color: lightseagreen;
+  }
+  .g {
+    /* grid-column: span 2; */
+    background-color: lightslategray;
+  
+  }
+  .h {
+    /* grid-column: span 2; */
     background-color: #bada55;
-    height: 50%;
-    width: 50%;
+  
   }
-
-  footer {
+  .i {
+    grid-column: span 2;
     background-color: #a29bfe;
-    height: 7.575vh;
+  
   }
 
-  article {
-    display: flex;
-    /* flex-direction:column; */
-   flex-flow: row wrap;
-   
-  }
+
+  /* @media (min-width: 1025px) and (max-width: 1280px){
+    .div-container{
+      display:flex;
+      grid-template-columns: 200px 190px 190px 190px 190px;
+      grid-template-rows: repeat(4,fr);
+    }
+    } */
