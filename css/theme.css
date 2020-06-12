@@ -1,4 +1,4 @@
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .a {
     background-color: red;
   }
@@ -26,13 +26,13 @@
   .i {
     background-color: #bada55;
   }
-} */
+}
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .div-container{
     display:grid;
-    grid-template-columns: 200px 190px 190px 190px 190px;
-    grid-template-rows: 100px 200px 250px 150px;
+    grid-template-columns: 200px repeat(4, 1fr);
+    grid-template-rows: 9.469vh 18.939vh 23.674vh 14.20vh;
   }
   .a {
     background-color: rgb(83, 4, 4);
