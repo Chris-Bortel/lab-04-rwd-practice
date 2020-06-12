@@ -2,67 +2,59 @@
   - Apply to elements such as header, footer, nav, aside
   - Classes and IDs can be included here */
 
-  
-  header {
-    width: 480px;
-    height: 75px;
+  .div-container {
+    display:grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+    margin: auto 0;
+    margin: 60px;
   }
   
-  main {
-    width: 480px;
+  .a {
+    grid-column: span 2;
+    background-color: lightblue;
   }
+  .b {
+    grid-column: span 2;
+    background-color: salmon;
+  }
+  .c {
+    grid-column: span 2;
+    background-color: lightgreen;
+  }
+  .d {
+    grid-column: span 2;
+    background-color: lightgoldenrodyellow;
+  }
+  .e {
+    /* grid-column: 1fr; */
+    background-color: lightsalmon;
+  }
+  .f {
+    /* grid-column: 1fr; */
+    background-color: lightseagreen;
+  }
+  .g {
+    /* grid-column: span 2; */
+    background-color: lightslategray;
   
- 
+  }
+  .h {
+    /* grid-column: span 2; */
+    background-color: #bada55;
   
+  }
+  .i {
+    grid-column: span 2;
+    background-color: #a29bfe;
+  
+  }
 
-  /* @media (min-width: 768px) {
-    body {
-      width:960px;
-      background-color: salmon;
 
+  /* @media (min-width: 1025px) and (max-width: 1280px){
+    .div-container{
+      display:flex;
+      grid-template-columns: 200px 190px 190px 190px 190px;
+      grid-template-rows: repeat(4,fr);
     }
-    header {
-      height: 100px;
-      background-color: #FFC312;
-    }
-
-    aside {
-      float: left;
-      width: 200px;
-      height: 600px;
-      background-color: #0abde3;
-    }
-    
-    div  {
-      display:inline-block;
-      width: 378px;
-      height: 200px;
-      background-color: #1dd1a1;
-    }
-
-    div:nth-child(2){
-      background-color: #ff9f43;
-    }
- 
-    article p {
-      width: 187px;
-      height: 250px;
-      background-color: #8395a7;
-    }
-    article p:nth-child(2) {
-      background-color:#f368e0;
-    }
-    article p:nth-child(3) {
-      background-color:#9980FA;
-    }
-    article p:nth-child(4) {
-      background-color:#ff9ff3;
-    }
-    
-    footer {
-      float:right;
-      width: 758px;
-      height: 150px;
-      background-color: #C4E538;
-    }
-  } */
+    } */
