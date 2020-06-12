@@ -4,7 +4,7 @@
 
   .div-container {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 240px 240px;
     grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
     margin: auto 0;
     margin: 60px;

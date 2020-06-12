@@ -13,3 +13,9 @@
   /* background-color: blue; */
 }
 
+body {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
